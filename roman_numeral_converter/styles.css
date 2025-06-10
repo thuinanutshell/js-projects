@@ -1,0 +1,54 @@
+html, body {
+  height: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: Monospace, Helvetica, sans-serif;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+}
+
+input {
+  width: 300px;
+  height: 30px;
+  text-align: center;
+}
+
+button {
+  margin-top: 20px;
+  height: 30px;
+  width: 300px;
+  font-family: Monospace, Helvetica, sans-serif;
+  background-color: green;
+  color: white;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+#output {
+  height: 30px;
+  width: 300px;
+  margin-top: 20px;
+  font-size: 20px;
+}
+
+label {
+    margin-bottom: 20px;
+}
+
+#input-box {
+    border: 1px solid;
+    padding: 20px 50px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+}
