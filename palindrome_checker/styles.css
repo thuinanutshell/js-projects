@@ -1,0 +1,32 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+body {
+    display: flex;
+    justify-content: center; /* horizontal cetering */
+    align-items: center; /* vertical centering */
+    text-align: center;
+    flex-direction: column; /* keep elements stacked vertically */
+    font-family: Monospace, Helvetica, sans-serif;
+}
+
+#explanation {
+    margin: 20px auto;
+    padding: 10px 50px;
+    border: 1px solid;
+    background-color: #FAFFFA;
+    width: 500px;
+}
+
+#text-input {
+    width: 400px;
+    height: 25px;
+}
+
+button {
+    height: 30px;
+    width: 100px;
+}
