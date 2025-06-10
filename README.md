@@ -9,6 +9,7 @@
 
 ## Palindrome Checker
 This project helped me review the two-pointer algorithm to check for a palindrome (which has a time complexity of O(n)) and some CSS styles to center the body horizontally and vertically on a page using flexbox. When building this project, there was a bug with the DOM object and its value when I tried to check if the input is empty (remember to use `input.value` to access the content of the DOM object `input`.
+
 ![palindrome_checker_demo](https://github.com/user-attachments/assets/7a728ab8-610b-4029-86bb-73198fb8213d)
 
 ## Roman Numeral Converter Project
