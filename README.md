@@ -27,6 +27,7 @@ Always pay attention to patterns by analyzing multiple examples if you are stuck
 - For 6-8, it's the sum of V and a multiple of one symbol
 - For 9, it's IX
 As a result, to form the unit part of a number (the last part of the number), it is the combination of 3 symbols: I, V, X. The same pattern works for the ten part (X, L, C), hundred part (C, D, M) and the thousand part is the special one (M, "", "").
+
 ![Screen Recording 2025-06-10 at 9 59 19 PM](https://github.com/user-attachments/assets/101e1e3b-961c-47b2-a6c4-aff14b58c050)
 ## Telephone Number Validator Project
 
