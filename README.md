@@ -19,7 +19,16 @@ This project helped me review the two-pointer algorithm to check for a palindrom
 ![palindrome_checker_demo](https://github.com/user-attachments/assets/7a728ab8-610b-4029-86bb-73198fb8213d)
 
 ## Roman Numeral Converter Project
+### Key Takeaways
+Always pay attention to patterns by analyzing multiple examples if you are stuck. I think this is more of an induction approach to come up with the conversion algorithm. If you perform some conversion by hand from integers to Roman numerals, you will notice the following pattern:
+- For 1-3, the numerals are the sum of all one symbols (I)
+- For 4, the numeral is (I + V, the I symbol comes before)
+- For 5, it's simply V
+- For 6-8, it's the sum of V and a multiple of one symbol
+- For 9, it's IX
+As a result, to form the unit part of a number (the last part of the number), it is the combination of 3 symbols: I, V, X. The same pattern works for the ten part (X, L, C), hundred part (C, D, M) and the thousand part is the special one (M, "", "").
 
+![Screen Recording 2025-06-10 at 9 59 19 PM](https://github.com/user-attachments/assets/101e1e3b-961c-47b2-a6c4-aff14b58c050)
 ## Telephone Number Validator Project
 
 ## A Cash Register Project
