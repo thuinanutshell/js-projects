@@ -1,0 +1,42 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-family: Monospace, Helvetica, sans-serif;
+}
+
+#input-box {
+  display: grid;
+  grid-template: 1fr / 1fr;
+  place-items: center;
+}
+
+#user-input {
+  width: 200px;
+  height: 30px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+button {
+  width: 100px;
+  height: 30px;
+}
+
+#check-btn {
+  background-color: green;
+  color: white;
+}
+
+#clear-btn {
+  background-color: black;
+  color: white;
+}
