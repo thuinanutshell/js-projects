@@ -46,6 +46,28 @@ function validateNumber(number) {
 }
 ```
 ## A Cash Register Project
+This project helps reinforce my algorithmic thinking skills, which actually reminds me of how things that sound very simple to humans require precise language and more concrete translation to the machine. I also got the chance to review some useful methods in JS, such as `filter()` and `map()`. I started this project by outlining the algorithm with a pen and paper. The instruction only provided me with a list of cash in drawer (CID), and then I did some division and noticed a pattern:
+- When a customer inputs the total amount of money, we first need to calculate the remaining cash by subtracting the price from the total.
+- If the price > total, the customer does not have enough money to pay
+- If the price < total, we have a positive remaining
+- Then, we will divide the remaining by 100 first, take the quotient (the number of units needed), and take the minimum between the available units and the units needed
+- After that, we continue to subtract the remaining to the amount used and store the name of the currency with the amount used.
+- Repeat this process for all other currencies.
+```javascript
+for (let [name, value] of denominations) {
+    let unitsAvailable = nums[name];
+    let unitsNeeded = Math.floor(remaining / value);
+    let unitsUsed = Math.min(unitsAvailable, unitsNeeded);
 
+    if (unitsUsed > 0) {
+      let amountUsed = roundToTwo(unitsUsed * value);
+      remaining = roundToTwo(remaining - amountUsed);
+      change.push([name, amountUsed]);
+    }
+  }
+```
 ## RPG Creature Search App Project
+This project helps reinforce my understanding of api calls and fetches. It also reminds me of the importance of the structure of the JSON as the response returned from the API call because it helps us extract the information correctly for the frontend.
+
+
 
